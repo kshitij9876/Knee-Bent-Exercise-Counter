@@ -41,8 +41,8 @@ elif app_mode == 'Knee Bend Exercise':
         st.text(".     'Keep your knee bent for atleast 8 seconds.' ")
 
     run = st.checkbox('Ready')
-    #cap = cv2.VideoCapture(0)
-    cap = cv2.VideoCapture('https://drive.google.com/file/d/1QM8UFQciXxJll5SZaTAhdqO4mg6tzM8r/view?usp=sharing')
+    cap = cv2.VideoCapture(0)
+    #cap = cv2.VideoCapture('https://drive.google.com/file/d/1QM8UFQciXxJll5SZaTAhdqO4mg6tzM8r/view?usp=sharing')
     # Set video camera size
     cap.set(3,1280)
     cap.set(4,960)
